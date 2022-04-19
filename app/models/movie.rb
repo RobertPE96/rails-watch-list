@@ -5,5 +5,4 @@ class Movie < ApplicationRecord
   validates :overview, presence: true
   validates :title, uniqueness: true
   validates :overview, uniqueness: true
-
 end
